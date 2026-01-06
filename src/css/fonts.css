@@ -1,0 +1,12 @@
+@font-face {
+    font-family: 'Saira';
+    src: url('../assets/fonts/Saira-Regular.eot') format('Embedded OpenType'),
+        url('../assets/fonts/Saira-Regular.otf') format('OpenType'),
+        url('../assets/fonts/Saira-Regular.ttf') format('TrueType'),
+        url('../assets/fonts/Saira-Regular.woff') format('woff'),
+        url('../assets/fonts/Saira-Regular.woff2') format('woff2');
+}
+
+body {
+    font-family: 'Saira';
+}
