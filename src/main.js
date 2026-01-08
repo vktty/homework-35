@@ -51,7 +51,7 @@ searchPlaceholder.addEventListener('input', async (event) => {
 
 searchForm.addEventListener('submit', async (event) => {
     event.preventDefault();
-    let movieName = searchPlaceholder.value;
+    const movieName = searchPlaceholder.value;
 
     const movieData = await getMovie(movieName);
     if (movieData === null) {

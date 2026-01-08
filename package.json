@@ -6,7 +6,8 @@
   "scripts": {
     "dev": "webpack serve",
     "build": "webpack",
-    "analyze": "webpack --profile --json > stats.json"
+    "analyze": "webpack --profile --json > stats.json",
+    "lint": "eslint"
   },
   "keywords": [],
   "author": "",
@@ -18,10 +19,10 @@
     "@types/lodash": "^4.17.21",
     "babel-loader": "^10.0.0",
     "css-loader": "^7.1.2",
-    "eslint-plugin-import": "^2.25.3",
-    "eslint-plugin-jsx-a11y": "^6.5.1",
-    "eslint-plugin-react": "^7.28.0",
-    "eslint-plugin-react-hooks": "^4.3.0",
+    "eslint": "^9.39.2",
+    "eslint-import-resolver-typescript": "^4.4.4",
+    "eslint-plugin-import": "^2.32.0",
+    "globals": "^17.0.0",
     "html-webpack-plugin": "^5.6.5",
     "postcss-loader": "^8.2.0",
     "sass": "^1.97.2",
